@@ -38,6 +38,13 @@ header{
     flex-wrap: wrap;
 
 }
+.dropbtn{
+        display: none;
+}
+
+.dropdown-content{
+        display: none;
+}
 .nav_bar a{
     text-decoration: none;
     text-transform: uppercase;
@@ -47,6 +54,9 @@ header{
     letter-spacing: .3px;
     padding: 27px 0px;
     border-bottom: 3px solid #ffffff;
+    /* @media screen and (max-width: 1246px) {
+        display: none;
+      } */
 }
 .nav_bar a:hover{
 
@@ -82,6 +92,7 @@ header{
     padding:2px ;
     color: #ff3f6c;
     font-size: 8px;
+
 }
 .nav_bar a sup:hover{
     border: 1px solid #ff3f6c;
@@ -159,8 +170,7 @@ header{
 }
 /* MAIN SECTION CSS STYLINNG */
 .banner_container{
-    @
-    margin: 120px 0px 40px 0;
+    margin: 12vh 0 0 0;
 }
 .banner_image{
     width: 100%;
@@ -277,8 +287,13 @@ header{
     color: #00eeff;
     background-color: white;
     border-radius: 50%;
+    box-sizing: border-box;
+    border-bottom: 5px; 
+    border-top: 5px;
+
 }
 .linkedin-but:hover{
     color: white;
-    background-color: #00eeff;;
+    background-color: #00eeff;
+    border: 3px solid #ffffff;
 }
