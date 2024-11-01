@@ -136,12 +136,11 @@ header{
 }
 /* MAIN SECTION CSS STYLINNG */
 .banner_container{
-    position: relative;
-    top: 12vh;
+    margin: 12vh 0 4vh 0;
+    
 }
 .banner_image{
     width: 100%;
-
 }
 .title-name{
     text-transform: uppercase;
